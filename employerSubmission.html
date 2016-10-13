@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Submission</title>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="employerSubmission.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <section class="col-md-6">
+        <header class="row">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+           <li><a href="adminLogin.html">Administrator</a></li>
+           <li><a href="postings.html">Job Postings</a></li>
+           <li><a href="employerSubmission.html">Submit a Job</a></li>
+           <li><a href="http://www.instruction.greenriver.edu/design-drafting-technology/resources.shtm">Additional Resources</a></li>
+           <li><a href="http://www.instruction.greenriver.edu/design-drafting-technology/default.shtm">GRC Drafting</a></li>
+          </ul>
+        </header>
+      </section>
+    </div>
+
+    <div class="row">
+      <section class="col-md-8">
+        <h2>Welcome to the Job Submission page!</h2>
+      </section>
+    </div>
+
+    <div class="row">
+      <section class="col-md-6">
+        <h3><a href="postings.html">View All Job Postings!</a></h3>
+      </section>
+    </div>
+
+    <div>
+      <form method="get" action="process.php">
+        <fieldset>
+          <legend><h1> Submission Form</h1></legend>
+
+          <!--Job Title Input-->
+          <div class="form-group row">
+            <label class="col-md-1 col-form-label">Job Title</label>
+            <div class="col-md-6">
+              <input class="form-control" type="text" required="required"  name="title">
+            </div><br>
+          </div>
+
+          <!--Company Name Input-->
+          <div class="form-group row" style="clear:left;">
+            <label class="col-md-1 col-form-label">Company Name</label>
+            <div class="col-md-6">
+              <input class="form-control" type="text" required="required" name="company">
+            </div><br></div>
+
+            <!--Category Input-->
+            <div class="form-group row" style="clear:left;">
+              <label class="col-md-1 col-form-label">Category</label>
+              <div class="col-md-6">
+                <input class="form-control" type="text"  required="required" name="category">
+              </div><br></div>
+
+              <!--Location Input-->
+              <div class="form-group row" style="clear:left;">
+                <label class="col-md-1 col-form-label">Location</label>
+                <div class="col-md-6">
+                  <input class="form-control" type="text" required="required"  name="location">
+                </div><br></div>
+
+                <!--Date Posted Input-->
+                <div class="form-group row" style="clear:left;">
+                  <label class="col-md-1 col-form-label">Date Posted</label>
+                  <div class="col-md-6">
+                    <input class="form-control" type="text" required="required"  name="datePosted">
+                  </div><br></div>
+
+                  <!--Date Ending Input-->
+                  <div class="form-group row" style="clear:left;">
+                    <label class="col-md-1 col-form-label">Date Ending</label>
+                    <div class="col-md-6">
+                      <input class="form-control" type="text" required="required" name="dateEnding">
+                    </div><br></div>
+
+                    <!--Description Text Area-->
+                    <div class=row>
+                      <section class="col-md-4">
+                        <p>
+                          Description:<br>
+                          <textarea id="description" name="description" cols="30" rows="5"  required="required"></textarea>
+                        </p>
+                      </section>
+
+                      <!--Qualifications Text Area-->
+                      <section class = "col-md-4">
+                        <p>
+                          Preferred Qualifications:<br>
+                          <textarea id="qualifications" name="qualifications" cols="30" rows="5"  required="required"></textarea>
+                        </p>
+                      </section>
+                    </div>
+
+                    <!--Submit Button-->
+                    <p>
+                      <input type="submit" id="submit" name="submit" value="Validate">
+                    </p>
+                  </fieldset>
+                </form>
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+              <!-- Include all compiled plugins (below), or include individual files as needed -->
+              <script src="js/bootstrap.min.js"></script>
+
+            </body>
+            </html>
