@@ -1,0 +1,80 @@
+body{
+background-color:rgb(214,224,62);
+  border-style:solid;
+  border-color:rgb(0,98,37);
+  border-width:1em;
+  text-align:center;
+  width:70%;
+  margin-left:15%;
+   background-clip: border-box;
+}
+
+table{
+margin-left:15%;
+}
+
+
+header{
+background-size: auto;
+background-color:rgb(214,224,62);
+
+}
+
+h1{
+  margin-left:-35%;
+}
+
+h2{
+  margin-left:8%;
+}
+
+h3{
+  margin-left:35%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  /*display: block;*/
+  width: 100px;
+  float: left;
+  margin: 0px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background: rgb(109,179,63);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+legend
+			{
+				font-weight: bold;
+				color: darkgreen;
+				font-variant: small-caps;
+				font-size: 14pt;
+				text-align: center;
+			}
+
+			fieldset
+			{
+				margin-bottom: 1.5em;
+				border-color: darkgreen;
+				padding: 1em;
+			}
+
+			label
+			{
+				display: block;
+				margin-bottom: 20px;
+			}
+
+			#submit
+			{
+				 margin-left: 15%;
+			}
